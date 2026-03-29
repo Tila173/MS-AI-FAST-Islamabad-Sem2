@@ -17,7 +17,7 @@ This project implements multiple deep learning models:
 ~60,000 images split into train/val/test
 
 ## Results
-EfficientNet-B0 achieved best performance with high accuracy and efficiency.
+ResNet-50 achieved best performance with high accuracy and efficiency.
 
 ## Tech Stack
 - PyTorch
