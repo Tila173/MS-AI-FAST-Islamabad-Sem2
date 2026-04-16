@@ -167,7 +167,7 @@ Pretrained model weights are not included due to size limitations.
 To reproduce the experiments:
 
 ```bash
-git clone https://github.com/your-username/text-summarization-reproduction.git
+git clone https://github.com/Tila173/text-summarization-reproduction.git
 cd text-summarization-reproduction
 pip install -r requirements.txt
 python train.py
