@@ -1,25 +1,7 @@
 # -*- coding: utf-8 -*-
-"""TEXT SUMMARIZATION - Corrected version aligned with:
+"""TEXT SUMMARIZATION:
 Rani Krishna et al., "Deep learning for text summarization using NLP
-for automated news digest", Scientific Reports (2025) 15:36343.
-
-Corrections summary:
-- Fixed dataset split error for T5-base pre-training (was DatasetDict, no split specified)
-- Added required "summarize: " task prefix for all T5 models
-- Fixed BART model: facebook/bart-large -> facebook/bart-large-cnn
-- Fixed PEGASUS model: google/pegasus-large -> google/pegasus-cnn_dailymail
-- Fixed max summary generation length: 512 -> 128 tokens (per Table 2)
-- Fixed BART/PEGASUS preprocessing max_input_length: 512 -> 1024 (per Table 2)
-- Fixed max_target_length: 150 -> 128 (per Table 2)
-- Fixed learning rates per model (per Table 2)
-- Fixed batch sizes per model (per Table 2)
-- Fixed warmup_steps to 2000 for all models (per Table 2)
-- Added predict_with_generate=True to Seq2SeqTrainingArguments
-- Applied -100 label masking to ignore padding in loss computation
-- Used full test split for all post-training evaluations
-- Pre-training baselines now evaluated on full test split for consistency
-"""
-
+for automated news digest", Scientific Reports (2025) 15:36343.""" 
 # ── Installation ─────────────────────────────────────────────────────────────
 # !pip install accelerate -U
 # !pip install transformers datasets rouge_score nltk tqdm
