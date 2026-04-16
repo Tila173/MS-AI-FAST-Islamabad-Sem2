@@ -193,5 +193,3 @@ FAST-NUCES Islamabad
 ## ⭐ Acknowledgment
 
 This project was completed as part of an academic assignment focused on reproducibility in deep learning research.
-
---
