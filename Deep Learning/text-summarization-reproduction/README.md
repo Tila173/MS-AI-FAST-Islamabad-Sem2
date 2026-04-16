@@ -176,23 +176,22 @@ python train.py
 ---
 
 ## 📚 References
-
 1. PEGASUS Paper (Zhang et al., 2020)
 2. BART Paper (Lewis et al., 2020)
 3. T5 Paper (Raffel et al., 2020)
 4. CNN/DailyMail Dataset
-
 ---
-
-## 👨‍💻 Authors
-
-* FAST-NUCES | Dept. of AI & Data Science
-* Group 07
-
+## 👨‍💻 Author
+Tila Muhammad  
+BS Artificial Intelligence  
+FAST-NUCES Islamabad  
+## 🤝 Contributors
+- 25i-7601  
+- 25i-7639  
+- 25i-7641  
 ---
-
 ## ⭐ Acknowledgment
 
 This project was completed as part of an academic assignment focused on reproducibility in deep learning research.
 
----
+--
