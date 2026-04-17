@@ -134,7 +134,7 @@ text-summarization-reproduction/
 │
 ├── logs/           # Training logs for each model
 ├── results/        # Evaluation results
-├── docs/           # Full report
+├── references-predictions
 ├── configs/        # Hyperparameters
 └── README.md
 ```
