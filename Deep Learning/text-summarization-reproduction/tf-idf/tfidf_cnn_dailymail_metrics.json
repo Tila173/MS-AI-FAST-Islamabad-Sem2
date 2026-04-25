@@ -1,0 +1,24 @@
+{
+  "dataset": "cnn_dailymail/3.0.0",
+  "method": "tfidf_extractive_baseline",
+  "source_field": "article",
+  "target_field": "highlights",
+  "parameters": {
+    "max_summary_sentences": 3,
+    "max_summary_tokens": 128,
+    "min_sentence_tokens": 4,
+    "redundancy_threshold": 0.7,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_features": 5000
+  },
+  "test_metrics": {
+    "rouge1": 0.35982326232128437,
+    "rouge2": 0.147062795827717,
+    "rougeL": 0.23521574745716192,
+    "bleu": 0.07623674984169239,
+    "meteor": 0.29342905931959884
+  }
+}
