@@ -134,8 +134,9 @@ text-summarization-reproduction/
 │
 ├── logs/           # Training logs for each model
 ├── results/        # Evaluation results
-├── references-predictions
-├── configs/        # Hyperparameters
+├── references-predictions/
+├── tf-idf/        # Extractive Baseline
+├── cross-domain-evaluation/        # Cross Domain
 └── README.md
 ```
 
