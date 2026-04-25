@@ -1,0 +1,51 @@
+{
+  "dataset_name": "EdinburghNLP/xsum",
+  "split": "test",
+  "split_sizes": {
+    "xsum": {
+      "train": 204045,
+      "validation": 11332,
+      "test": 11334
+    },
+    "cnn_dailymail_3_0_0": {
+      "train": 287113,
+      "validation": 13368,
+      "test": 11490
+    },
+    "evaluated_split": "test"
+  },
+  "max_samples": null,
+  "generation": {
+    "summary_max_length": 64,
+    "min_new_tokens": 5,
+    "num_beams": 4,
+    "length_penalty": 1.0,
+    "no_repeat_ngram_size": 3
+  },
+  "skip_meteor": false,
+  "graph_files": [
+    "/mnt/optimusmesh/checkingfiles/xsum_zero_shot_results/xsum_zero_shot_metric_bars.png",
+    "/mnt/optimusmesh/checkingfiles/xsum_zero_shot_results/xsum_zero_shot_rouge1_bar.png",
+    "/mnt/optimusmesh/checkingfiles/xsum_zero_shot_results/xsum_zero_shot_rouge2_bar.png",
+    "/mnt/optimusmesh/checkingfiles/xsum_zero_shot_results/xsum_zero_shot_rougeL_bar.png",
+    "/mnt/optimusmesh/checkingfiles/xsum_zero_shot_results/xsum_zero_shot_bleu_bar.png",
+    "/mnt/optimusmesh/checkingfiles/xsum_zero_shot_results/xsum_zero_shot_meteor_bar.png"
+  ],
+  "results": [
+    {
+      "model_key": "t5large",
+      "model_label": "T5-large fine-tuned",
+      "checkpoint": "/mnt/optimusmesh/checkingfiles/checkpoints_t5large/checkpoint-143000",
+      "base_model": "t5-large",
+      "num_samples": 11334,
+      "rouge1": 0.21297954949760686,
+      "rouge2": 0.0344878521979237,
+      "rougeL": 0.1417780281304891,
+      "bleu": 0.012036878209328222,
+      "meteor": 0.1588281972330956,
+      "predictions_file": "/mnt/optimusmesh/checkingfiles/xsum_zero_shot_results/t5large_xsum_predictions.txt",
+      "references_file": "/mnt/optimusmesh/checkingfiles/xsum_zero_shot_results/t5large_xsum_references.txt",
+      "generations_file": "/mnt/optimusmesh/checkingfiles/xsum_zero_shot_results/t5large_xsum_generations.jsonl"
+    }
+  ]
+}
