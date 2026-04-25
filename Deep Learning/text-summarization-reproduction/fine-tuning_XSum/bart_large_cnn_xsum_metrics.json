@@ -1,0 +1,35 @@
+{
+  "dataset": "EdinburghNLP/xsum",
+  "model_name": "facebook/bart-large-cnn",
+  "source_field": "document",
+  "target_field": "summary",
+  "hyperparameters": {
+    "input_max_length": 1024,
+    "summary_max_length": 128,
+    "num_train_epochs": 2,
+    "per_device_train_batch_size": 4,
+    "per_device_eval_batch_size": 4,
+    "learning_rate": 3e-05,
+    "warmup_steps": 2000,
+    "weight_decay": 0.01,
+    "logging_steps": 100,
+    "save_steps": 1000,
+    "eval_steps": 1000,
+    "num_beams": 4,
+    "length_penalty": 2.0
+  },
+  "pre_training": {
+    "rouge1": 0.20787897674216618,
+    "rouge2": 0.03606630300884983,
+    "rougeL": 0.13608567295403887,
+    "bleu": 0.011857658095773563,
+    "meteor": 0.17652689674565414
+  },
+  "post_training": {
+    "rouge1": 0.3518829644782839,
+    "rouge2": 0.1529565711246961,
+    "rougeL": 0.26384134808411164,
+    "bleu": 0.06139471335116774,
+    "meteor": 0.3470738252496992
+  }
+}
