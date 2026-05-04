@@ -2,10 +2,10 @@
 
 This repository contains my personal coursework, assignments, notes, implementations, and study material developed during the course:
 
-**Course:** NLP 
-**Department:** AI & DS
-**Instructor:** Dr. Zohair Ahmed  
-**Institution:** National University of Computer and Emerging Sciences (FAST-NUCES), Islamabad
+- **Course:** NLP
+- **Department:** AI & DS
+- **Instructor:** Dr. Zohair Ahmed
+- **Institution:** National University of Computer and Emerging Sciences (FAST-NUCES)
 
 Some reference materials, lecture concepts, and academic guidance presented here are based on the instruction, methodology, and teaching resources provided during this course. Full academic credit for the original course content, lecture delivery, and pedagogical materials belongs to the course instructor.
 
