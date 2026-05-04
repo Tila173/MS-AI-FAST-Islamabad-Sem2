@@ -463,8 +463,9 @@ And the MELD dataset:
 | Member 2 | 25i-7641 |
 | Member 3 | 25i-7643 |
 
-**Course:** AI & Data Science — FAST-NUCES  
+**Course:** NLP — FAST-NUCES  
 **Instructor:** Dr. Zohair Ahmed  
 **Email:** zohair.ahmed@isb.nu.edu.pk
+
 **Assignment:** 02 — Reproduction of Results
 
