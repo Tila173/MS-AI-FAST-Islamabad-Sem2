@@ -24,4 +24,4 @@ If any material included here is considered inappropriate for public sharing by 
 
 ## Disclaimer
 
-All coding tasks, experiments, and implementations in this repository were completed as part of my learning journey in Artificial Intelligence and Data Science. This repository is intended solely to document practical understanding and academic progress, not to redistribute proprietary institutional resources.
+All coding tasks, experiments, and implementations in this repository were completed as part of my learning journey in Artificial Intelligence. This repository is intended solely to document practical understanding and academic progress, not to redistribute proprietary institutional resources.
