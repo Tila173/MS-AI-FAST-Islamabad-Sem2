@@ -33,7 +33,8 @@ The system trains four independent unimodal models on the MELD dataset and then 
 ## Repository Structure
 
 ```
-├── make_balanced_subsets.py      # Step 1: Create balanced dataset subsets
+├── make_balanced_subsets.py      # Step 1a: Create balanced dataset subsets
+├── extract_audio_meld.py         # Step 1b: Extract audio from videos subset
 │
 ├── train_text_emotion.py         # Step 2a: Train RoBERTa for emotion
 ├── train_text_sentiment.py       # Step 2b: Train RoBERTa for sentiment
@@ -464,5 +465,6 @@ And the MELD dataset:
 
 **Course:** AI & Data Science — FAST-NUCES  
 **Instructor:** Dr. Zohair Ahmed  
+**Email:** zohair.ahmed@isb.nu.edu.pk
 **Assignment:** 02 — Reproduction of Results
 
