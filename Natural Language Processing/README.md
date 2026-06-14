@@ -2,285 +2,315 @@
 
 # 💬 Natural Language Processing
 
-### MS Artificial Intelligence • FAST-NUCES Islamabad
+### 🧠 MS Artificial Intelligence • FAST-NUCES Islamabad
 
-<img src="https://img.shields.io/badge/Course-Natural%20Language%20Processing-blue?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Program-MS%20Artificial%20Intelligence-orange?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Credit%20Hours-3-success?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Focus-LLMs%20%7C%20Transformers%20%7C%20NLP-red?style=for-the-badge" />
+<p align="center">
+<img src="https://img.shields.io/badge/MS-AI-6C63FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/NLP-00C853?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LLMs-FF6D00?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Transformers-E91E63?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Credit%20Hours-3-2196F3?style=for-the-badge"/>
+</p>
+
+<br>
+
+### 🚀 From Tokens to Transformers
+
+### Exploring the Science Behind Large Language Models
 
 ---
 
-### 🤖 From Text Processing to Large Language Models
+*"Language is humanity's most powerful interface. NLP teaches machines to understand it."*
 
-*"Teaching machines to understand, generate, and reason with human language."*
+</div>
+
+<br>
+
+# ✨ About This Repository
+
+This repository documents my learning journey through **Natural Language Processing (NLP)** as part of the **MS Artificial Intelligence** program at **FAST-NUCES Islamabad**.
+
+The course spans the complete NLP ecosystem:
+
+```text
+Text Processing
+      ↓
+Feature Engineering
+      ↓
+Embeddings
+      ↓
+Transformers
+      ↓
+Large Language Models
+      ↓
+Generative AI
+```
+
+---
+
+# 🗺️ Learning Roadmap
+
+```mermaid
+mindmap
+  root((NLP))
+    Foundations
+      Applications
+      Datasets
+      Challenges
+    Text Processing
+      Tokenization
+      BPE
+      WordPiece
+    Classical NLP
+      BoW
+      TF-IDF
+      Classification
+    Embeddings
+      Word2Vec
+      Semantic Spaces
+    Transformers
+      Attention
+      Encoder Decoder
+    LLMs
+      Pretraining
+      Finetuning
+      Adaptation
+      Future Trends
+```
+
+---
+
+# 📚 Course Modules
+
+## 🌱 Foundations
+
+```text
+NLP 00 RoadMap
+NLP 01 Intro, Applications, Datasets, Challenges
+```
+
+Understanding:
+
+* What NLP is
+* Real-world applications
+* Common datasets
+* Research challenges
+
+---
+
+## 🔤 Text Processing & Tokenization
+
+```text
+NLP 02A Preparing Text for Language Models
+NLP 02B BPE Word Piece Tutorial
+NLP 02D Lab Text for Language Models
+NLP BPE Activity
+```
+
+Topics:
+
+* Text normalization
+* Tokenization
+* Byte Pair Encoding (BPE)
+* WordPiece Algorithms
+* Data preprocessing pipelines
+
+---
+
+## 📊 Classical NLP
+
+```text
+NLP 03 Classical Text Features & Classification
+NLP 03A TF-IDF Tutorial
+```
+
+Topics:
+
+* Bag of Words
+* TF-IDF
+* Text Classification
+* Feature Engineering
+
+---
+
+## 🌌 Vector Semantics
+
+```text
+NLP 4 Vector Semantics & Embeddings
+```
+
+Topics:
+
+* Word Embeddings
+* Semantic Similarity
+* Vector Spaces
+* Representation Learning
+
+---
+
+## 🤖 Transformers & LLMs
+
+```text
+DL 08 Transformers
+NLP 5 Large Language Models
+NLP 6 LLM Decoding and Pretraining
+NLP 7 LLM Finetune
+NLP 8 LLM Adaptation & Future Trends
+```
+
+Topics:
+
+* Self-Attention
+* Transformers
+* GPT-style Models
+* LLM Pretraining
+* Fine-Tuning
+* PEFT Techniques
+* Future of NLP
+
+---
+
+# 🧠 NLP Technology Stack
+
+<div align="center">
+
+| 🛠 Tool      | Purpose             |
+| ------------ | ------------------- |
+| Python       | Core Development    |
+| NumPy        | Numerical Computing |
+| Pandas       | Data Processing     |
+| Scikit-Learn | Classical ML        |
+| NLTK         | NLP Fundamentals    |
+| SpaCy        | Industrial NLP      |
+| PyTorch      | Deep Learning       |
+| Hugging Face | Transformers & LLMs |
 
 </div>
 
 ---
 
-# 📖 Course Overview
-
-This repository contains lecture notes, tutorials, laboratory exercises, assignments, and learning resources from the **Natural Language Processing (NLP)** course offered in the **MS Artificial Intelligence** program at **FAST-NUCES Islamabad**.
-
-The course provides a comprehensive journey through modern NLP, beginning with traditional text processing techniques and progressing toward advanced topics including:
-
-* Text Representation
-* Vector Semantics
-* Word Embeddings
-* Transformers
-* Large Language Models (LLMs)
-* Fine-Tuning & Adaptation
-* Emerging Trends in NLP
-
----
-
-# 🎯 Learning Objectives
-
-Upon completion of this course, students should be able to:
-
-✅ Process and prepare textual data for machine learning
-
-✅ Apply classical NLP feature engineering techniques
-
-✅ Understand vector representations of language
-
-✅ Build NLP pipelines using embeddings and transformers
-
-✅ Analyze and fine-tune Large Language Models
-
-✅ Explore state-of-the-art NLP research and applications
-
----
-
-# 🗂 Course Roadmap
-
-```text
-Natural Language Processing
-│
-├── Foundations
-│     ├── Introduction
-│     ├── Applications
-│     └── Datasets
-│
-├── Text Processing
-│     ├── Tokenization
-│     ├── Subword Models
-│     └── BPE / WordPiece
-│
-├── Classical NLP
-│     ├── Bag of Words
-│     ├── TF-IDF
-│     └── Text Classification
-│
-├── Semantic Representations
-│     ├── Embeddings
-│     └── Vector Semantics
-│
-├── Deep NLP
-│     ├── Transformers
-│     ├── LLMs
-│     ├── Pretraining
-│     └── Decoding
-│
-└── Advanced NLP
-      ├── Fine-Tuning
-      ├── Adaptation
-      └── Future Trends
-```
-
----
-
-# 📚 Repository Contents
-
-## 1️⃣ Foundations of NLP
-
-| Resource                                         | Topics                           |
-| ------------------------------------------------ | -------------------------------- |
-| NLP 00 RoadMap                                   | Course Structure & Learning Path |
-| NLP 01 Intro, Applications, Datasets, Challenges | NLP Fundamentals                 |
-
----
-
-## 2️⃣ Text Preparation & Tokenization
-
-| Resource                                   | Topics                        |
-| ------------------------------------------ | ----------------------------- |
-| NLP 02A Preparing Text for Language Models | Text Cleaning & Preprocessing |
-| NLP 02B BPE Word Piece Tutorial            | Subword Tokenization          |
-| NLP 02D Lab Text for Language Models       | Practical Exercises           |
-| NLP BPE Activity                           | Hands-on BPE Implementation   |
-
----
-
-## 3️⃣ Classical NLP
-
-| Resource                                        | Topics                  |
-| ----------------------------------------------- | ----------------------- |
-| NLP 03 Classical Text Features & Classification | Traditional NLP Methods |
-| NLP 03A TF-IDF Tutorial                         | Feature Engineering     |
-
----
-
-## 4️⃣ Semantic Representations
-
-| Resource                            | Topics                                   |
-| ----------------------------------- | ---------------------------------------- |
-| NLP 4 Vector Semantics & Embeddings | Word Embeddings & Meaning Representation |
-
----
-
-## 5️⃣ Large Language Models
-
-| Resource                             | Topics                       |
-| ------------------------------------ | ---------------------------- |
-| NLP 5 Large Language Models          | LLM Fundamentals             |
-| NLP 6 LLM Decoding and Pretraining   | Training & Generation        |
-| NLP 7 LLM Finetune                   | Task-Specific Adaptation     |
-| NLP 8 LLM Adaptation & Future Trends | Emerging Research Directions |
-
----
-
-## 6️⃣ Transformer Architectures
-
-| Resource           | Topics                              |
-| ------------------ | ----------------------------------- |
-| DL 08 Transformers | Attention Mechanisms & Transformers |
-
----
-
-# 🧠 Core Concepts Covered
-
-### 📄 Text Processing
-
-* Tokenization
-* Normalization
-* Stop Word Removal
-* Stemming
-* Lemmatization
-
-### 📊 Feature Engineering
-
-* Bag of Words
-* N-Grams
-* TF-IDF
-* Statistical Text Features
-
-### 🔤 Semantic Representations
-
-* Distributional Semantics
-* Word Embeddings
-* Contextual Embeddings
-
-### 🤖 Deep Learning for NLP
-
-* Self-Attention
-* Transformers
-* Encoder-Decoder Models
-
-### 🚀 Large Language Models
-
-* Pretraining
-* Fine-Tuning
-* Prompt Engineering
-* Adaptation Strategies
-* Future Directions
-
----
-
-# 📈 NLP Evolution
+# 📈 Evolution of NLP
 
 ```mermaid
 graph LR
 
-A[Bag of Words]
---> B[TF-IDF]
+A[Rule Based Systems]
+--> B[Bag of Words]
 
-B --> C[Word Embeddings]
+B --> C[TF-IDF]
 
-C --> D[Contextual Embeddings]
+C --> D[Word Embeddings]
 
-D --> E[Transformers]
+D --> E[Seq2Seq]
 
-E --> F[Large Language Models]
+E --> F[Attention]
 
-F --> G[Generative AI]
+F --> G[Transformers]
+
+G --> H[Large Language Models]
+
+H --> I[Generative AI]
 ```
 
 ---
 
-# 🛠 Technologies & Tools
+# 🎯 Skills Acquired
 
-<div align="center">
+<table>
+<tr>
+<td width="50%">
 
-| Category         | Tools                     |
-| ---------------- | ------------------------- |
-| Programming      | Python                    |
-| Data Processing  | Pandas, NumPy             |
-| Machine Learning | Scikit-Learn              |
-| Deep Learning    | TensorFlow, PyTorch       |
-| NLP Libraries    | NLTK, SpaCy, Hugging Face |
-| Development      | Jupyter Notebook, VS Code |
+### Classical NLP
 
-</div>
+* Text Cleaning
+* Feature Engineering
+* TF-IDF
+* Classification
+* Information Retrieval
+
+</td>
+
+<td width="50%">
+
+### Modern NLP
+
+* Embeddings
+* Transformers
+* LLM Fine-Tuning
+* Prompt Engineering
+* Model Adaptation
+
+</td>
+</tr>
+</table>
 
 ---
 
-# 🔬 Applications of NLP
+# 🔬 Research Areas Explored
 
-The concepts covered in this repository can be applied to:
+```text
+Natural Language Processing
+├── Language Understanding
+├── Text Classification
+├── Semantic Search
+├── Information Retrieval
+├── Transformers
+├── Large Language Models
+├── Generative AI
+└── Human-AI Interaction
+```
 
-* 💬 Chatbots & Virtual Assistants
-* 🌐 Machine Translation
-* 😊 Sentiment Analysis
-* 📄 Document Classification
-* 🔍 Information Retrieval
-* 📰 Text Summarization
-* 🧠 Question Answering Systems
-* 🤖 Generative AI Applications
+---
+
+# 🚀 Applications
+
+<div align="center">
+
+💬 Chatbots
+
+📄 Document Intelligence
+
+🌐 Machine Translation
+
+🔍 Search Engines
+
+😊 Sentiment Analysis
+
+📰 Text Summarization
+
+🤖 AI Assistants
+
+🧠 Generative AI
+
+</div>
 
 ---
 
 # 🎓 Academic Information
 
-**Course:** Natural Language Processing
-
-**Program:** MS Artificial Intelligence
-
-**University:** FAST National University of Computer and Emerging Sciences (FAST-NUCES)
-
-**Campus:** Islamabad
-
-**Credit Hours:** 3
-
----
-
-# 🚀 Learning Journey
-
-```text
-Raw Text
-   ↓
-Preprocessing
-   ↓
-Feature Engineering
-   ↓
-Embeddings
-   ↓
-Transformers
-   ↓
-Large Language Models
-   ↓
-Generative AI Systems
+```yaml
+Course: Natural Language Processing
+Program: MS Artificial Intelligence
+University: FAST-NUCES Islamabad
+Semester: 2
+Credit Hours: 3
+Focus:
+  - NLP Foundations
+  - Transformers
+  - Large Language Models
+  - Generative AI
 ```
 
 ---
 
 <div align="center">
 
-### 💡 Language • Intelligence • Understanding • Generation
+## 🌟 From Words to Intelligence
 
-*"Natural Language Processing bridges the gap between human communication and machine intelligence."*
+### Building the foundation for modern AI systems powered by language.
 
-⭐ Exploring the evolution from classical NLP techniques to modern Large Language Models.
+<br>
+
+⭐ Exploring NLP, Transformers, and Large Language Models through graduate-level study and practical implementation.
 
 </div>
