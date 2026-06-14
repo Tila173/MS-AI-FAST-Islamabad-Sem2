@@ -120,31 +120,20 @@ Topics covered include:
 MS-AI-Semester-2/
 │
 ├── Advanced_Machine_Learning/
-│   ├── Assignments/
-│   ├── Projects/
-│   ├── Labs/
-│   └── Notes/
+│   ├── Tasks/Labs/
 │
 ├── Natural_Language_Processing/
-│   ├── Assignments/
-│   ├── Projects/
-│   ├── Labs/
-│   └── Notes/
+│   ├── Tasks/Labs/
+│   ├── Multi-Modality/Projects
 │
 ├── Deep_Learning/
-│   ├── Assignments/
-│   ├── Projects/
-│   ├── Labs/
-│   └── Notes/
+│   ├── DL Tasks/Labs/
+│   ├── Text Summarization/Projects
 │
-├── Holy_Quran_I/
-│   ├── Assignments/
-│   └── Notes/
+├── Holy_of_the_Holy_Quran_I/
+│   └── README.md
 │
-├── Holy_Quran_II/
-│   ├── Assignments/
-│   └── Notes/
-│
+├── Holy_of_the_Holy_Quran_II/
 └── README.md
 ```
 
