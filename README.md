@@ -96,7 +96,7 @@ Topics covered include:
 - Social Values
 - Reflection and Understanding
 
-📂 Folder: `Holy_Quran_I/`
+📂 Folder: `Understanding of the Holy Quran I/`
 
 ---
 
