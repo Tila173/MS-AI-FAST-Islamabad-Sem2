@@ -110,7 +110,7 @@ Topics covered include:
 - Moral Development
 - Islamic Worldview
 
-📂 Folder: `Holy_Quran_II/`
+📂 Folder: `Understanding of the Holy Quran - II/`
 
 ---
 
