@@ -96,7 +96,7 @@ Topics covered include:
 - Social Values
 - Reflection and Understanding
 
-📂 Folder: `Understanding of the Holy Quran I/`
+📂 Folder: `Understanding of the Holy Quran I & II/`
 
 ---
 
@@ -110,7 +110,7 @@ Topics covered include:
 - Moral Development
 - Islamic Worldview
 
-📂 Folder: `Understanding of the Holy Quran - II/`
+📂 Folder: `Understanding of the Holy Quran I & II/`
 
 ---
 
@@ -130,11 +130,8 @@ MS-AI-Semester-2/
 │   ├── DL Tasks/Labs/
 │   ├── Text Summarization/Projects
 │
-├── Holy_of_the_Holy_Quran_I/
+├── Holy_of_the_Holy_Quran_I & II/
 │   └── README.md
-│
-├── Holy_of_the_Holy_Quran_II/
-└── README.md
 ```
 
 ---
